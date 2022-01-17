@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: '',
+        siteUrl: `https://www.test.yaakovbressler.com`,
     },
     plugins: [
 
