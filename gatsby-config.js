@@ -22,6 +22,7 @@ module.exports = {
             `gatsby-remark-prismjs`,
           ],
         },
-      }
+      },
+      "gatsby-transformer-sharp",
     ]
 }
