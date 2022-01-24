@@ -1,3 +1,9 @@
+// Load environment variables
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+// Loads required modules
 module.exports = {
     siteMetadata: {
         title: "My First Gatsby Site",
