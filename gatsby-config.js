@@ -30,5 +30,8 @@ module.exports = {
         },
       },
       "gatsby-transformer-sharp",
+      {
+        resolve: "gatsby-plugin-web-font-loader",
+      }
     ]
 }
