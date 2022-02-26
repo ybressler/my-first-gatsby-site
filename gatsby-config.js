@@ -8,6 +8,20 @@ module.exports = {
     siteMetadata: {
         title: "My First Gatsby Site",
         siteUrl: `https://www.test.yaakovbressler.com`,
+        menuLinks:[
+          {
+            name:'Home',
+            link:'/'
+          },
+          {
+            name:'About',
+            link:'/about'
+          },
+          {
+            name:'Blog',
+            link:'/blog'
+          }
+        ]
     },
     plugins: [
       "gatsby-plugin-image",

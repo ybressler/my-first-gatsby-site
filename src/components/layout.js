@@ -15,6 +15,10 @@ const Layout = ({ pageTitle, children }) => {
       site {
         siteMetadata {
           title
+          menuLinks {
+            name
+            link
+          }
         }
       }
     }
@@ -26,23 +30,16 @@ const Layout = ({ pageTitle, children }) => {
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
       <nav>
         <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
-              Home
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
-              About
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/blog" className={navLinkText}>
-              Blog
-            </Link>
-          </li>
+          {data.site.siteMetadata.menuLinks.map(link => (
+            <li className={navLinkItem}>
+              <Link to={link.link} className={navLinkText}>
+                {link.name}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
+
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
