@@ -15,30 +15,23 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@fontsource/open-sans": "^4.5.5",
     "@fontsource/oswald": "^4.5.4",
-    "@fontsource/pt-mono": "^4.5.1",
+    "@fontsource/pt-mono": "^4.5.2",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "gatsby": "^4.8.1",
-    "gatsby-plugin-image": "^2.5.2",
+    "gatsby-plugin-image": "^2.8.1",
     "gatsby-plugin-manifest": "^4.8.1",
-    "gatsby-plugin-mdx": "^3.5.2",
+    "gatsby-plugin-mdx": "^3.8.1",
     "gatsby-plugin-sharp": "^4.8.1",
     "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-remark-autolink-headers": "^5.5.0",
-    "gatsby-remark-images": "^6.5.2",
+    "gatsby-remark-autolink-headers": "^5.8.0",
     "gatsby-remark-images-contentful": "^5.8.0",
-    "gatsby-remark-prismjs": "^6.5.0",
+    "gatsby-remark-prismjs": "^6.8.0",
     "gatsby-source-contentful": "^6.1.4",
-    "gatsby-source-filesystem": "^4.5.2",
-    "gatsby-source-pg": "^1.0.0-rc.0",
-    "gatsby-theme-elements": "^1.0.7",
-    "gatsby-transformer-remark": "^5.5.2",
+    "gatsby-source-filesystem": "^4.8.1",
+    "gatsby-transformer-remark": "^5.8.1",
     "gatsby-transformer-sharp": "^4.8.0",
-    "gatsby-transformer-sqip": "^4.8.1",
-    "prismjs": "^1.26.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "gatsby-transformer-sqip": "^4.8.1"
   }
 }

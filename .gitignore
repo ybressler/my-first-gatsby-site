@@ -6,4 +6,6 @@ public
 # Ignore environment variables
 .env*
 
+# Ignore node config stuff
 yarn.lock
+package-lock.json

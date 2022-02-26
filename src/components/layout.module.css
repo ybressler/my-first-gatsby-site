@@ -1,22 +1,20 @@
+.main-section {
+  width: 75%;
+  float: right;
+  height: 100vh;
+}
+
 .container {
   margin: auto;
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .heading {
   color: rebeccapurple;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-  padding-left: 0;
-}
-.nav-link-item {
-  padding-right: 2rem;
-}
-.nav-link-text {
-  color: black;
 }
 
 .site-title {
@@ -24,4 +22,38 @@
   color: gray;
   font-weight: 700;
   margin: 3rem 0;
+}
+
+
+.nav-link-item {
+  padding-right: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+
+/* The side navigation menu */
+.sidebar {
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  /* background: #312450; */
+}
+
+.sidebar-nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 25%;
+
+  line-height: 5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.4em;
+  color: rgba(#FFF, 0.35);
+  display: block;
+  transition: all ease-out 300ms;
 }
